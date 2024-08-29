@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <style>
+        input{
+            margin:2px
+        }
+        
+    </style>
+</head>
+<body style="display: flex; justify-content: center">
+    <div style="border: solid rgb(0, 195, 255) 2px;width: 500px;">
+                <form style="margin: 20px;">
+            <h3 style="text-align: center">ĐĂNG KÍ THÀNH VIÊN</h3>
+            <fieldset style="display: grid ; grid-template-columns: 15% 70%;">
+                <legend>Thông tin cá nhân</legend>
+            <label for="fname">Họ và tên:</label>
+            <input id="fname" type="text" name="fname" style="width: 40%;">
+           
+            <label for="fday">Ngày sinh:</label>
+            <div>
+            <select name="fday" id="fday">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+             </select>
+            <label for="fthang">Tháng</label>
+            <select name="fthang" id="fthang">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+           <label for="fnam">Năm</label>
+            <input type="text" id="fnam" name="fnam" style="width: 20%;">
+        </div>
+            
+            <label>Giới tính:</label>
+            <div>
+            <input type="radio" id="gioitinh1" name="fgioitinh" value="Nam">
+            <label for="gioitinh1">Nam</label>
+            <input  type="radio" id="gioitinh2" name="fgioitinh" value="Nu">
+            <label for="gioitinh2">Nữ</label>
+            </div>
+            <label>Địa chỉ:</label>
+            <textarea name="diachi"></textarea>
+            <label>Điện thoại:</label>
+            <input type="tel" id="fdienthoai" name="fdienthoai">
+            <label>Email:</label>
+            <input type="email" id="femail" name="femail">
+        </fieldset>
+        <fieldset style="display: grid ; grid-template-columns: 24% 70%;">
+            <legend>Thông tin cá nhân</legend>
+            <label>Tên đăng nhập:</label>
+            <input type="text" id="ftendangnhap" name="ftendangnhap">
+            <label>Mật khẩu:</label>
+            <input type="password" id="fmatkhau" name="fmatkhau">
+            <lable>Nhập lại mật khẩu:</lable>
+            <input type="password" id="fnhaplaimatkhau" name="fnhaplaimatkhau">
+       </fieldset>
+       <div style="text-align: center">
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Hủy">
+       </div>
+        </form>
+    </div>
+    
+</body>
+</html>
